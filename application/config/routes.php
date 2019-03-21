@@ -50,8 +50,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-$route['noticias/(:any)'] = 'noticias/detalle/$1';
-$route['noticias'] = 'noticias';
+
+
+// editar una noticia 
+$route['noticias/editar/(:num)'] = 'noticias/editar/$1';
+// crear una noticia 
+$route['noticias/crear'] = 'noticias/crear';
+// borrar una noticia
+$route['noticias/borrar/(:num)'] = 'noticias/borrar/$1';
+// leer una noticia
+$route['noticias/detalle/(:num)'] = 'noticias/detalle/$1';
+// leer todas las noticias
+$route['noticias'] = 'noticias/inicio';
+
+
+
+
+
+
+
+
+
 
 $route['productos/(:any)'] = 'productos/detalle/$1';
 $route['productos'] = 'productos';
