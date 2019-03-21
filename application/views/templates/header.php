@@ -33,12 +33,12 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-5">
                         <div class="top-header-content">
-                            <p>Welcome to hair salon!</p>
+                            <p>CafeOlé... El tostao del placer</p>
                         </div>
                     </div>
                     <div class="col-7">
                         <div class="top-header-content text-right">
-                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Sat: 8.00 to 17.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Call us: (+12)-345-6789</p>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lun-Vie: 8.00 a 17.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Llámame: (+34)-652565656</p>
                         </div>
                     </div>
                 </div>
@@ -70,31 +70,13 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">- Home</a></li>
-                                            <li><a href="./about.html">- About Us</a></li>
-                                            <li><a href="./service.html">- Services</a></li>
-                                            <li><a href="./portfolio.html">- Portfolio</a></li>
-                                            <li><a href="./blog.html">- Blog</a></li>
-                                            <li><a href="./single-blog.html">- Blog Details</a></li>
-                                            <li><a href="./contact.html">- Contact</a></li>
-                                            <li><a href="#">- Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./portfolio.html">Portfolio</a></li>
-                                    <li><a href="./service.html">Services</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./blog.html">Blog</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    
+                                    <li><a href="<?php echo site_url("index.php/index/inicio"); ?>">- Inicio</a></li>
+                                   <li><a href="<?php echo site_url("index.php/productos/inicio"); ?>">- Productos</a></li>
+                                    <li><a href="<?php echo site_url("index.php/noticias/inicio"); ?>">- Noticias</a></li>
+                                    <li><a href="<?php echo site_url("index.php/blog/inicio"); ?>">- Blog</a></li>
+                                    <li><a href="<?php echo site_url("index.php/index/contacto"); ?>">- Contacto</a></li>                                    
+
                                 </ul>
 
                                  
