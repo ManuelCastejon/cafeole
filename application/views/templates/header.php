@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-7">
                         <div class="top-header-content text-right">
-                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lun-Vie: 8.00 a 17.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Llámame: (+34)-652565656</p>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lun-Vie: 8.00 a 17.00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Llámame: (+34)-65256565</p>
                         </div>
                     </div>
                 </div>
